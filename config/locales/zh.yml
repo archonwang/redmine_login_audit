@@ -1,0 +1,18 @@
+# Simplified Chinese strings go here for Rails i18n
+# Author: Steven.W
+# Based on file: en.yml
+
+zh:
+  label_la_admin: "登陆审计"
+  label_la_ip_address: "IP地址"
+  label_la_from_to: "自 #%{from} 到 #%{to} 总计 %{count} 次"
+  label_la_audit_records_per_page: "每页显示记录数"
+  label_la_notification_email: "电子邮件"
+  help_la_mail_address: "每次有用户成功登陆时，该地址会收到告知电子邮件。若您不想使用该功能，请将电子邮件设为控制。"
+  mail_la_subject: "Redmine登陆审计： 用户 %{user_name} 来自 %{ip_address} 于 %{date}"
+  mail_la_body_text: "来自 %{ip_address} 的用户 %{user_name} 于 %{date} 登陆 %{instance}"
+  mail_la_body_html: "来自 %{ip_address} 的用户 <b>%{user_name}</b> 于 %{date} 登陆 %{instance}"
+  label_la_delete_older_than: "删除设定日期之前的审计记录"
+  label_la_delete_history: "Delete now!"
+  error_la_bad_parameters: "非法参数！"
+  notice_la_records_deleted: "自 %{date} 前的记录删除后，%{count} 条登陆审计记录已添加。"
